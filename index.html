@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House VOP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://kit.fontawesome.com/36d7315237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <div class="logo__img"><img src="img/HouseVOP.png" alt="HouseVOP"></div>
+                    <div class="logo__title">Жилой комплекс</div>
+                </div>
+                <div class="nav__menu">
+                    <a href="#about" class="nav__item">О комплексе</a>
+                    <a href="#apartments" class="nav__item">Каталог квартир</a>
+                    <a href="#feedback" class="nav__item">Просмотр</a>
+                    <a href="#place" class="nav__item">Район</a>
+                    <a href="#contacts" class="nav__item">Контакты</a>
+                </div>
+            </nav>
+            <div class="intro">
+                <div class="intro__title">Жилой комплекс в историческом месте</div>
+                <div class="intro__footer">
+                    <div class="intro__item">
+                        <span class="intro__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        Наб. реки Фонтанки 10-15
+                    </div>
+                    <div class="intro__item">
+                        <span class="intro__icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        8(812) 123 -45-67
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <section class="benefits" id="about">
+        <div class="container">
+            <div class="benefits__content">
+                <div class="benefits__item">
+                    <div class="benefits__icon"><img src="img/bench.png"></div>
+                    <div class="benefits__title">Рядом исторические<br>парки и скверы</div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__icon"><img src="img/building.png"></div>
+                    <div class="benefits__title">Полностью<br>обустроенный</div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__icon"><img src="img/fountain.png"></div>
+                    <div class="benefits__title">10 фонтанов<br>на территории</div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__icon"><img src="img/bike.png"></div>
+                    <div class="benefits__title">6 км<br>велодорожек</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="apartments" id="apartments">
+        <div class="container">
+            <div class="apartments__title title">Наши квартиры</div>
+            <div class="apartments__content">
+                <div class="apartments__item">
+                    <img class="apartments__img" src="img/apartments1.png">
+                    <p class="apartments__description">Лофт - 3 этажа</p>
+                </div>
+                <div class="apartments__item">
+                    <img class="apartments__img" src="img/apartments2.png">
+                    <p class="apartments__description">Лофт - 2 этажа</p>
+                </div>
+                <div class="apartments__item">
+                    <img class="apartments__img" src="img/apartments1.png">
+                    <p class="apartments__description">Лофт - 3 этажа</p>
+                </div>
+                <div class="apartments__item">
+                    <img class="apartments__img" src="img/apartments2.png">
+                    <p class="apartments__description">Лофт - 2 этажа</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <div class="container">
+            <div class="feedback-wrap">
+                <div class="feedback__title title">Хотите посмотреть?</div>
+                <div class="feedback__content">
+                    <p class="feedback__description">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum 
+                        является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий 
+                        безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum 
+                        для распечатки образцов.
+                    </p>
+                    <div class="feedback__inner">
+                        <form class="form feedback__form" action="#">
+                            <input class="form__name" type="text" placeholder="Ваше имя">
+                            <input class="form__phone" type="text" placeholder="Ваш телефон">
+                            <p class="form__text">*Мы никому не передаем ваши данные.<br>И не сохраняем ваш номер в базу.</p>
+                            <input class="form__button" type="button" value="Посмотреть район">
+                        </form>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="video-wrap">
+                <div class="video__img">
+                    <img src="img/video.png" alt="">
+                </div>
+                <div class="video__play">
+                    <img src="img/play.png">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="place" id="place">
+        <div class="container">
+            <div class="place__tile title">Район на карте</div>
+            <div class="place__map" id="map"></div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <div class="questions__title title">Есть вопросы?</div>
+            <div class="questions__form">
+                <form class="form questions__form" action="#">
+                    <p class="form__text questions__text">*Мы никому не передаем ваши данные.<br>И не сохраняем ваш номер в базу.</p>
+                    <input class="form__name" type="text" placeholder="Ваше имя">
+                    <input class="form__phone" type="text" placeholder="Ваш телефон">
+                    <input class="form__button" type="button" value="Посмотреть район">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer__logo logo">
+                    <div class="logo__img"><img src="img/HouseVOP.png" alt="HouseVOP"></div>
+                    <div class="logo__title">Жилой комплекс</div>
+                </div>
+                <div class="footer__list">
+                    <a href="#">О комплексе</a>
+                    <a href="#">Район</a>
+                    <a href="#">Каталог квартир</a>
+                    <a href="#">Ипотека</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__description">
+                        <p>Адрес: Наб. реки Фонтанки 10-15</p>
+                        <p>Телефон: 8(812) 123-45-67</p>
+                        <p>Отдел продаж: 10:00 - 20:00</p>
+                        <p>Email: <span class="footer__mark">vip@housevip.ru</span></p>
+                    </div>
+                    <div class="footer__media">
+                        <div class="media__item"><img src="img/youtube.png" alt=""></div>
+                        <div class="media__item"><img src="img/vk.png" alt=""></div>
+                        <div class="media__item"><img src="img/facebook.png" alt=""></div>
+                        <div class="media__item"><img src="img/instagram.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scrpt.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOCg2-EzkZh49txpi2S791D5P0tGgjJHg&callback=initMap"
+    async defer></script>
+</body>
+</html>
